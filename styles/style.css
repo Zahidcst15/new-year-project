@@ -66,6 +66,45 @@
     margin-bottom: 48px;
 }
 
+/* welcome party part style */
+
+.welcome-part{
+    background-image: url('../images/Vectorrr.png');
+    align-items: center;
+    display: flex;
+    padding: 68px 138px 68px 126px;
+}
+
+.left-part .welcome-part-title{
+    color: white;
+    font-size: 64px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    line-height: 88px;
+    width: 642px;
+    letter-spacing: 7px;
+}
+
+.left-part .welcome-part-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    margin: 24px 0 48px;
+}
+
+.left-part button{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border: none;
+    background: none;
+    padding-left: 90px;
+}
+
 
 
 
