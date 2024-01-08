@@ -1,0 +1,50 @@
+/* common styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* banner part style */
+
+.banner{
+    background-image: url(../images/Banner\ Image.png);
+    padding: 177px 344px;
+}
+
+.banner-greeting{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.banner-title{
+    color: #fff;
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
