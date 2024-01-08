@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+section{
+    margin: 120px 0;
+}
+
 /* banner part style */
 
 .banner{
@@ -40,7 +44,6 @@
 
 .off-part{
     text-align: center;
-    padding: 120px 0;
 }
 
 .off-part-hading{
@@ -70,6 +73,8 @@
 
 .welcome-part{
     background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
     align-items: center;
     display: flex;
     padding: 68px 138px 68px 126px;
@@ -103,6 +108,41 @@
     border: none;
     background: none;
     padding-left: 90px;
+}
+
+/* information part style */
+
+.information-part{
+    background-image: url('../images/Vector.png');
+    text-align: center;
+    padding: 100px 380px;
+}
+
+.information span{
+    color: #FF0000;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.information{
+    color: #070211;
+    font-size: 32px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.information-part button{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    background-color: red;
+    border-radius: 8px;
+    margin-top: 48px;
 }
 
 
