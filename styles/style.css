@@ -355,14 +355,51 @@ section{
     position: absolute;
 }
 
+/* footer part */
+
+footer{
+    background-color: rgba(7, 2, 17, 1);
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 50px;
+}
+
+.details{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+}
+
+.contract{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+footer .icon{
+    text-align: center;
+    padding: 48px 0;
+
+}
+
+footer .icon a{
+    margin-left: 24px;
+
+}
 
 
-
-
-
-
-
-
-
-/* font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif; */
+.copy-right{
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 120px;
+}
