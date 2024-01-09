@@ -269,6 +269,42 @@ section{
     background-repeat: no-repeat;
 }
 
+/* portfolio part style */
+
+
+.portfolio-hading{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin: 16px 0 22px;
+}
+
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+    width: 896px;
+}
+
+
+.my-collection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
 
 
 
