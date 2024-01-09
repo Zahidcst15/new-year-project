@@ -204,6 +204,71 @@ section{
     width: 276px;
 }
 
+/* sale part style */
+
+
+.sale-part-text{
+   text-align: center;
+
+}
+
+.sale-part-text .text-hading{
+    color: #070211;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.sale-part-text span{
+    color: #FF0000;
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+.sale-part-text .text-title{
+    color: #070211; 
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    margin: 16px 0 28px;
+}
+
+.sale-part-text .text-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0 126px;
+    margin-bottom: 64px;
+}
+
+.left-right-background{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-background img {
+    position: absolute;
+}
+
+.right-background{
+    position: relative;
+}
+
+.right-background .discount img {
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+    transform: translate(156px, 363px);
+}
+
+.bottom-background img{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
 
